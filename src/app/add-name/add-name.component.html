@@ -1,0 +1,18 @@
+<p>add-name works!</p>
+<form [formGroup] = "addName" (ngSubmit)="SaveData()">
+    <div class= "mb-3">
+        <label class= "form-label">name</label>
+        <input type="text" class="form-control" placeholder="Enter Name" formControlName="name">
+    </div>
+    <div class= "mb-3">
+        <label class= "form-label">lastname</label>
+        <input type="text" class="form-control" placeholder="Enter lastName" formControlName="lastname">
+    </div>
+    <div class= "mb-3">
+        <label class= "form-label">birthday</label>
+        <input type="text" class="form-control" placeholder="Enter Birthday" formControlName="birthday">
+    </div>
+    <button type = "submit" class="btn btn-primary">Submit</button>
+
+
+</form>
