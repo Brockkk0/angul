@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "person": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "a",
+      "lastname": "a",
+      "birthday": "12ocak"
+    },
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "b",
+      "lastname": "b",
+      "birthday": "12ocak"
+    },
+    {
+      "id": 1,
+      "name": "c",
+      "lastname": "c",
+      "birthday": "12ocak"
+    },
+    {
+      "name": "a",
+      "lastname": "b",
+      "birthday": "213",
+      "id": 2
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
